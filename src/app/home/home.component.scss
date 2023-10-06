@@ -1,0 +1,45 @@
+
+.home{
+    height: 100vh;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-size: cover !important;
+    background-position: center !important;
+
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 8 / 8;
+        img{
+            width: 99.7vw;
+            background-blend-mode: multiply;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-size: cover !important;
+            background-position: center !important;
+        } }
+    .div2 { grid-area: 2 / 4 / 3 / 8;
+        
+        margin-left: 90px;
+    a{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 10px;
+        text-decoration: none;
+        color: #3d2514;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    }
+
+
+
